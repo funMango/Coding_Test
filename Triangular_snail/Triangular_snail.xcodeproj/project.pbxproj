@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A94129F2AC5101B001E7745 /* Triangular_snailApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A94129E2AC5101B001E7745 /* Triangular_snailApp.swift */; };
+		5A9412A12AC5101B001E7745 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9412A02AC5101B001E7745 /* ContentView.swift */; };
+		5A9412A32AC5101C001E7745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9412A22AC5101C001E7745 /* Assets.xcassets */; };
+		5A9412A62AC5101C001E7745 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9412A52AC5101C001E7745 /* Preview Assets.xcassets */; };
+		5A9412B02AC5101C001E7745 /* Triangular_snailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9412AF2AC5101C001E7745 /* Triangular_snailTests.swift */; };
+		5A9412BA2AC5101D001E7745 /* Triangular_snailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9412B92AC5101D001E7745 /* Triangular_snailUITests.swift */; };
+		5A9412BC2AC5101D001E7745 /* Triangular_snailUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9412BB2AC5101D001E7745 /* Triangular_snailUITestsLaunchTests.swift */; };
+		5A9412C92AC5105E001E7745 /* execute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9412C82AC5105E001E7745 /* execute.swift */; };
+		5A9412CB2AC510FF001E7745 /* executeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9412CA2AC510FF001E7745 /* executeTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A9412AC2AC5101C001E7745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9412932AC5101B001E7745 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A94129A2AC5101B001E7745;
+			remoteInfo = Triangular_snail;
+		};
+		5A9412B62AC5101D001E7745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9412932AC5101B001E7745 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A94129A2AC5101B001E7745;
+			remoteInfo = Triangular_snail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A94129B2AC5101B001E7745 /* Triangular_snail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triangular_snail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A94129E2AC5101B001E7745 /* Triangular_snailApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangular_snailApp.swift; sourceTree = "<group>"; };
+		5A9412A02AC5101B001E7745 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5A9412A22AC5101C001E7745 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A9412A52AC5101C001E7745 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A9412AB2AC5101C001E7745 /* Triangular_snailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Triangular_snailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9412AF2AC5101C001E7745 /* Triangular_snailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangular_snailTests.swift; sourceTree = "<group>"; };
+		5A9412B52AC5101D001E7745 /* Triangular_snailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Triangular_snailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9412B92AC5101D001E7745 /* Triangular_snailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangular_snailUITests.swift; sourceTree = "<group>"; };
+		5A9412BB2AC5101D001E7745 /* Triangular_snailUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangular_snailUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5A9412C82AC5105E001E7745 /* execute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = execute.swift; sourceTree = "<group>"; };
+		5A9412CA2AC510FF001E7745 /* executeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = executeTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A9412982AC5101B001E7745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9412A82AC5101C001E7745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9412B22AC5101D001E7745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A9412922AC5101B001E7745 = {
+			isa = PBXGroup;
+			children = (
+				5A94129D2AC5101B001E7745 /* Triangular_snail */,
+				5A9412AE2AC5101C001E7745 /* Triangular_snailTests */,
+				5A9412B82AC5101D001E7745 /* Triangular_snailUITests */,
+				5A94129C2AC5101B001E7745 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A94129C2AC5101B001E7745 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A94129B2AC5101B001E7745 /* Triangular_snail.app */,
+				5A9412AB2AC5101C001E7745 /* Triangular_snailTests.xctest */,
+				5A9412B52AC5101D001E7745 /* Triangular_snailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A94129D2AC5101B001E7745 /* Triangular_snail */ = {
+			isa = PBXGroup;
+			children = (
+				5A94129E2AC5101B001E7745 /* Triangular_snailApp.swift */,
+				5A9412A02AC5101B001E7745 /* ContentView.swift */,
+				5A9412A22AC5101C001E7745 /* Assets.xcassets */,
+				5A9412A42AC5101C001E7745 /* Preview Content */,
+				5A9412C82AC5105E001E7745 /* execute.swift */,
+			);
+			path = Triangular_snail;
+			sourceTree = "<group>";
+		};
+		5A9412A42AC5101C001E7745 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5A9412A52AC5101C001E7745 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5A9412AE2AC5101C001E7745 /* Triangular_snailTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A9412AF2AC5101C001E7745 /* Triangular_snailTests.swift */,
+				5A9412CA2AC510FF001E7745 /* executeTest.swift */,
+			);
+			path = Triangular_snailTests;
+			sourceTree = "<group>";
+		};
+		5A9412B82AC5101D001E7745 /* Triangular_snailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A9412B92AC5101D001E7745 /* Triangular_snailUITests.swift */,
+				5A9412BB2AC5101D001E7745 /* Triangular_snailUITestsLaunchTests.swift */,
+			);
+			path = Triangular_snailUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A94129A2AC5101B001E7745 /* Triangular_snail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9412BF2AC5101D001E7745 /* Build configuration list for PBXNativeTarget "Triangular_snail" */;
+			buildPhases = (
+				5A9412972AC5101B001E7745 /* Sources */,
+				5A9412982AC5101B001E7745 /* Frameworks */,
+				5A9412992AC5101B001E7745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Triangular_snail;
+			productName = Triangular_snail;
+			productReference = 5A94129B2AC5101B001E7745 /* Triangular_snail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A9412AA2AC5101C001E7745 /* Triangular_snailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9412C22AC5101D001E7745 /* Build configuration list for PBXNativeTarget "Triangular_snailTests" */;
+			buildPhases = (
+				5A9412A72AC5101C001E7745 /* Sources */,
+				5A9412A82AC5101C001E7745 /* Frameworks */,
+				5A9412A92AC5101C001E7745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A9412AD2AC5101C001E7745 /* PBXTargetDependency */,
+			);
+			name = Triangular_snailTests;
+			productName = Triangular_snailTests;
+			productReference = 5A9412AB2AC5101C001E7745 /* Triangular_snailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A9412B42AC5101D001E7745 /* Triangular_snailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9412C52AC5101D001E7745 /* Build configuration list for PBXNativeTarget "Triangular_snailUITests" */;
+			buildPhases = (
+				5A9412B12AC5101D001E7745 /* Sources */,
+				5A9412B22AC5101D001E7745 /* Frameworks */,
+				5A9412B32AC5101D001E7745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A9412B72AC5101D001E7745 /* PBXTargetDependency */,
+			);
+			name = Triangular_snailUITests;
+			productName = Triangular_snailUITests;
+			productReference = 5A9412B52AC5101D001E7745 /* Triangular_snailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A9412932AC5101B001E7745 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5A94129A2AC5101B001E7745 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					5A9412AA2AC5101C001E7745 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5A94129A2AC5101B001E7745;
+					};
+					5A9412B42AC5101D001E7745 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5A94129A2AC5101B001E7745;
+					};
+				};
+			};
+			buildConfigurationList = 5A9412962AC5101B001E7745 /* Build configuration list for PBXProject "Triangular_snail" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A9412922AC5101B001E7745;
+			productRefGroup = 5A94129C2AC5101B001E7745 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A94129A2AC5101B001E7745 /* Triangular_snail */,
+				5A9412AA2AC5101C001E7745 /* Triangular_snailTests */,
+				5A9412B42AC5101D001E7745 /* Triangular_snailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A9412992AC5101B001E7745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9412A62AC5101C001E7745 /* Preview Assets.xcassets in Resources */,
+				5A9412A32AC5101C001E7745 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9412A92AC5101C001E7745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9412B32AC5101D001E7745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A9412972AC5101B001E7745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9412A12AC5101B001E7745 /* ContentView.swift in Sources */,
+				5A9412C92AC5105E001E7745 /* execute.swift in Sources */,
+				5A94129F2AC5101B001E7745 /* Triangular_snailApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9412A72AC5101C001E7745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9412B02AC5101C001E7745 /* Triangular_snailTests.swift in Sources */,
+				5A9412CB2AC510FF001E7745 /* executeTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9412B12AC5101D001E7745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9412BA2AC5101D001E7745 /* Triangular_snailUITests.swift in Sources */,
+				5A9412BC2AC5101D001E7745 /* Triangular_snailUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A9412AD2AC5101C001E7745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A94129A2AC5101B001E7745 /* Triangular_snail */;
+			targetProxy = 5A9412AC2AC5101C001E7745 /* PBXContainerItemProxy */;
+		};
+		5A9412B72AC5101D001E7745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A94129A2AC5101B001E7745 /* Triangular_snail */;
+			targetProxy = 5A9412B62AC5101D001E7745 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A9412BD2AC5101D001E7745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A9412BE2AC5101D001E7745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A9412C02AC5101D001E7745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Triangular_snail/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minho.Triangular-snail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A9412C12AC5101D001E7745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Triangular_snail/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minho.Triangular-snail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A9412C32AC5101D001E7745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minho.Triangular-snailTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triangular_snail.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Triangular_snail";
+			};
+			name = Debug;
+		};
+		5A9412C42AC5101D001E7745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minho.Triangular-snailTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triangular_snail.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Triangular_snail";
+			};
+			name = Release;
+		};
+		5A9412C62AC5101D001E7745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minho.Triangular-snailUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Triangular_snail;
+			};
+			name = Debug;
+		};
+		5A9412C72AC5101D001E7745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minho.Triangular-snailUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Triangular_snail;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A9412962AC5101B001E7745 /* Build configuration list for PBXProject "Triangular_snail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9412BD2AC5101D001E7745 /* Debug */,
+				5A9412BE2AC5101D001E7745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A9412BF2AC5101D001E7745 /* Build configuration list for PBXNativeTarget "Triangular_snail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9412C02AC5101D001E7745 /* Debug */,
+				5A9412C12AC5101D001E7745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A9412C22AC5101D001E7745 /* Build configuration list for PBXNativeTarget "Triangular_snailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9412C32AC5101D001E7745 /* Debug */,
+				5A9412C42AC5101D001E7745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A9412C52AC5101D001E7745 /* Build configuration list for PBXNativeTarget "Triangular_snailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9412C62AC5101D001E7745 /* Debug */,
+				5A9412C72AC5101D001E7745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A9412932AC5101B001E7745 /* Project object */;
+}

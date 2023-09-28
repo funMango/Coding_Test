@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A71D8652AC3DE47007386E4 /* Finding_Stars_at_Intersection_Points_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A71D8642AC3DE47007386E4 /* Finding_Stars_at_Intersection_Points_2App.swift */; };
+		5A71D8672AC3DE47007386E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A71D8662AC3DE47007386E4 /* ContentView.swift */; };
+		5A71D8692AC3DE49007386E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A71D8682AC3DE49007386E4 /* Assets.xcassets */; };
+		5A71D86C2AC3DE49007386E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A71D86B2AC3DE49007386E4 /* Preview Assets.xcassets */; };
+		5A71D8762AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A71D8752AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2Tests.swift */; };
+		5A71D8802AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A71D87F2AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2UITests.swift */; };
+		5A71D8822AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A71D8812AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2UITestsLaunchTests.swift */; };
+		5A71D88F2AC3DF5F007386E4 /* findingStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A71D88E2AC3DF5F007386E4 /* findingStars.swift */; };
+		5A71D8912AC3DFB8007386E4 /* findingStarsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A71D8902AC3DFB8007386E4 /* findingStarsTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A71D8722AC3DE49007386E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A71D8592AC3DE47007386E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A71D8602AC3DE47007386E4;
+			remoteInfo = Finding_Stars_at_Intersection_Points_2;
+		};
+		5A71D87C2AC3DE49007386E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A71D8592AC3DE47007386E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A71D8602AC3DE47007386E4;
+			remoteInfo = Finding_Stars_at_Intersection_Points_2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A71D8612AC3DE47007386E4 /* Finding_Stars_at_Intersection_Points_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finding_Stars_at_Intersection_Points_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A71D8642AC3DE47007386E4 /* Finding_Stars_at_Intersection_Points_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finding_Stars_at_Intersection_Points_2App.swift; sourceTree = "<group>"; };
+		5A71D8662AC3DE47007386E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5A71D8682AC3DE49007386E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A71D86B2AC3DE49007386E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A71D8712AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Finding_Stars_at_Intersection_Points_2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A71D8752AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finding_Stars_at_Intersection_Points_2Tests.swift; sourceTree = "<group>"; };
+		5A71D87B2AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Finding_Stars_at_Intersection_Points_2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A71D87F2AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finding_Stars_at_Intersection_Points_2UITests.swift; sourceTree = "<group>"; };
+		5A71D8812AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finding_Stars_at_Intersection_Points_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5A71D88E2AC3DF5F007386E4 /* findingStars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findingStars.swift; sourceTree = "<group>"; };
+		5A71D8902AC3DFB8007386E4 /* findingStarsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findingStarsTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A71D85E2AC3DE47007386E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A71D86E2AC3DE49007386E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A71D8782AC3DE49007386E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A71D8582AC3DE47007386E4 = {
+			isa = PBXGroup;
+			children = (
+				5A71D8632AC3DE47007386E4 /* Finding_Stars_at_Intersection_Points_2 */,
+				5A71D8742AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2Tests */,
+				5A71D87E2AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2UITests */,
+				5A71D8622AC3DE47007386E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A71D8622AC3DE47007386E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A71D8612AC3DE47007386E4 /* Finding_Stars_at_Intersection_Points_2.app */,
+				5A71D8712AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2Tests.xctest */,
+				5A71D87B2AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A71D8632AC3DE47007386E4 /* Finding_Stars_at_Intersection_Points_2 */ = {
+			isa = PBXGroup;
+			children = (
+				5A71D8642AC3DE47007386E4 /* Finding_Stars_at_Intersection_Points_2App.swift */,
+				5A71D8662AC3DE47007386E4 /* ContentView.swift */,
+				5A71D8682AC3DE49007386E4 /* Assets.xcassets */,
+				5A71D86A2AC3DE49007386E4 /* Preview Content */,
+				5A71D88E2AC3DF5F007386E4 /* findingStars.swift */,
+			);
+			path = Finding_Stars_at_Intersection_Points_2;
+			sourceTree = "<group>";
+		};
+		5A71D86A2AC3DE49007386E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5A71D86B2AC3DE49007386E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5A71D8742AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5A71D8752AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2Tests.swift */,
+				5A71D8902AC3DFB8007386E4 /* findingStarsTest.swift */,
+			);
+			path = Finding_Stars_at_Intersection_Points_2Tests;
+			sourceTree = "<group>";
+		};
+		5A71D87E2AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A71D87F2AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2UITests.swift */,
+				5A71D8812AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2UITestsLaunchTests.swift */,
+			);
+			path = Finding_Stars_at_Intersection_Points_2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A71D8602AC3DE47007386E4 /* Finding_Stars_at_Intersection_Points_2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A71D8852AC3DE49007386E4 /* Build configuration list for PBXNativeTarget "Finding_Stars_at_Intersection_Points_2" */;
+			buildPhases = (
+				5A71D85D2AC3DE47007386E4 /* Sources */,
+				5A71D85E2AC3DE47007386E4 /* Frameworks */,
+				5A71D85F2AC3DE47007386E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Finding_Stars_at_Intersection_Points_2;
+			productName = Finding_Stars_at_Intersection_Points_2;
+			productReference = 5A71D8612AC3DE47007386E4 /* Finding_Stars_at_Intersection_Points_2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A71D8702AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A71D8882AC3DE49007386E4 /* Build configuration list for PBXNativeTarget "Finding_Stars_at_Intersection_Points_2Tests" */;
+			buildPhases = (
+				5A71D86D2AC3DE49007386E4 /* Sources */,
+				5A71D86E2AC3DE49007386E4 /* Frameworks */,
+				5A71D86F2AC3DE49007386E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A71D8732AC3DE49007386E4 /* PBXTargetDependency */,
+			);
+			name = Finding_Stars_at_Intersection_Points_2Tests;
+			productName = Finding_Stars_at_Intersection_Points_2Tests;
+			productReference = 5A71D8712AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A71D87A2AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A71D88B2AC3DE49007386E4 /* Build configuration list for PBXNativeTarget "Finding_Stars_at_Intersection_Points_2UITests" */;
+			buildPhases = (
+				5A71D8772AC3DE49007386E4 /* Sources */,
+				5A71D8782AC3DE49007386E4 /* Frameworks */,
+				5A71D8792AC3DE49007386E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A71D87D2AC3DE49007386E4 /* PBXTargetDependency */,
+			);
+			name = Finding_Stars_at_Intersection_Points_2UITests;
+			productName = Finding_Stars_at_Intersection_Points_2UITests;
+			productReference = 5A71D87B2AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A71D8592AC3DE47007386E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5A71D8602AC3DE47007386E4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					5A71D8702AC3DE49007386E4 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5A71D8602AC3DE47007386E4;
+					};
+					5A71D87A2AC3DE49007386E4 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5A71D8602AC3DE47007386E4;
+					};
+				};
+			};
+			buildConfigurationList = 5A71D85C2AC3DE47007386E4 /* Build configuration list for PBXProject "Finding_Stars_at_Intersection_Points_2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A71D8582AC3DE47007386E4;
+			productRefGroup = 5A71D8622AC3DE47007386E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A71D8602AC3DE47007386E4 /* Finding_Stars_at_Intersection_Points_2 */,
+				5A71D8702AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2Tests */,
+				5A71D87A2AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A71D85F2AC3DE47007386E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A71D86C2AC3DE49007386E4 /* Preview Assets.xcassets in Resources */,
+				5A71D8692AC3DE49007386E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A71D86F2AC3DE49007386E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A71D8792AC3DE49007386E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A71D85D2AC3DE47007386E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A71D8672AC3DE47007386E4 /* ContentView.swift in Sources */,
+				5A71D8652AC3DE47007386E4 /* Finding_Stars_at_Intersection_Points_2App.swift in Sources */,
+				5A71D88F2AC3DF5F007386E4 /* findingStars.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A71D86D2AC3DE49007386E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A71D8762AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2Tests.swift in Sources */,
+				5A71D8912AC3DFB8007386E4 /* findingStarsTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A71D8772AC3DE49007386E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A71D8822AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2UITestsLaunchTests.swift in Sources */,
+				5A71D8802AC3DE49007386E4 /* Finding_Stars_at_Intersection_Points_2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A71D8732AC3DE49007386E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A71D8602AC3DE47007386E4 /* Finding_Stars_at_Intersection_Points_2 */;
+			targetProxy = 5A71D8722AC3DE49007386E4 /* PBXContainerItemProxy */;
+		};
+		5A71D87D2AC3DE49007386E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A71D8602AC3DE47007386E4 /* Finding_Stars_at_Intersection_Points_2 */;
+			targetProxy = 5A71D87C2AC3DE49007386E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A71D8832AC3DE49007386E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A71D8842AC3DE49007386E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A71D8862AC3DE49007386E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Finding_Stars_at_Intersection_Points_2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minho.Finding-Stars-at-Intersection-Points-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A71D8872AC3DE49007386E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Finding_Stars_at_Intersection_Points_2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minho.Finding-Stars-at-Intersection-Points-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A71D8892AC3DE49007386E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minho.Finding-Stars-at-Intersection-Points-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finding_Stars_at_Intersection_Points_2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Finding_Stars_at_Intersection_Points_2";
+			};
+			name = Debug;
+		};
+		5A71D88A2AC3DE49007386E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minho.Finding-Stars-at-Intersection-Points-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finding_Stars_at_Intersection_Points_2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Finding_Stars_at_Intersection_Points_2";
+			};
+			name = Release;
+		};
+		5A71D88C2AC3DE49007386E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minho.Finding-Stars-at-Intersection-Points-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Finding_Stars_at_Intersection_Points_2;
+			};
+			name = Debug;
+		};
+		5A71D88D2AC3DE49007386E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minho.Finding-Stars-at-Intersection-Points-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Finding_Stars_at_Intersection_Points_2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A71D85C2AC3DE47007386E4 /* Build configuration list for PBXProject "Finding_Stars_at_Intersection_Points_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A71D8832AC3DE49007386E4 /* Debug */,
+				5A71D8842AC3DE49007386E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A71D8852AC3DE49007386E4 /* Build configuration list for PBXNativeTarget "Finding_Stars_at_Intersection_Points_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A71D8862AC3DE49007386E4 /* Debug */,
+				5A71D8872AC3DE49007386E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A71D8882AC3DE49007386E4 /* Build configuration list for PBXNativeTarget "Finding_Stars_at_Intersection_Points_2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A71D8892AC3DE49007386E4 /* Debug */,
+				5A71D88A2AC3DE49007386E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A71D88B2AC3DE49007386E4 /* Build configuration list for PBXNativeTarget "Finding_Stars_at_Intersection_Points_2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A71D88C2AC3DE49007386E4 /* Debug */,
+				5A71D88D2AC3DE49007386E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A71D8592AC3DE47007386E4 /* Project object */;
+}
