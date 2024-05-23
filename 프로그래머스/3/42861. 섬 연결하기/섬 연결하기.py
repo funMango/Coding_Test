@@ -6,8 +6,8 @@ def solution(n, costs):
     edges = 0
     
     for cost in costs:
-        if edges == n - 1:
-            return min_cost
+        # if edges == n - 1:
+        #     return min_cost
                         
         a,b = cost[0], cost[1]
         
